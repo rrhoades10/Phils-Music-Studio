@@ -1,0 +1,47 @@
+/* mycrophone background, make so it stays static while rest of the page scrolls */
+
+body {
+    background-image: url("/images/microphone2.jpg");
+    height: 1100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* oval photo, slight hover, left side of page */
+
+.welcome {
+    color: white;
+    text-shadow: 16px 22px 11px;
+}
+
+.profile {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin: 50px;
+    -moz-box-shadow: 3px 3px 5px 6px #340702;
+    -webkit-box-shadow: 3px 3px 5px 6px #340702;
+    box-shadow: 3px 3px 5px 6px #340702;
+}
+
+/* Container that holds the about blurb, similar shadowing and "floatiness" as profile picture */
+
+.blurbs {
+    max-width: 100%;
+    height: auto;
+    opacity: .8;
+    -moz-box-shadow: 5px 6px 3px 3px#360802;
+    -webkit-bozx-shadow: 5px 6px 3px 3px #360802;
+    box-shadow: 5px 6px 3px 3px #360802;
+    background-color: #340702;
+    border-radius: 50px;
+    margin: 100px;
+    padding: 15px;
+    color: white;
+    text-shadow: 16px 22px 11px;
+    text-align: center;
+    font-size: 120%;
+}
+
+background-color: #9E3C07;
